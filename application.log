@@ -1,0 +1,27 @@
+2022-08-17 16:27:54,358  INFO [main] Driver:47 - Opening Browser
+2022-08-17 16:27:59,897  INFO [main] Driver:54 - Opened browser
+2022-08-17 16:28:00,830  WARN [main] Driver:51 - Click OK on Covid pop-up alert
+2022-08-17 16:28:01,649  INFO [main] Driver:62 - Enter From source
+2022-08-17 16:28:02,348  INFO [main] Driver:73 - Enter destination source
+2022-08-17 16:28:02,825  INFO [main] Driver:85 - Select Ladies quota from the dropdown
+2022-08-17 16:28:03,382  INFO [main] Driver:94 - Select the date
+2022-08-17 16:28:03,846  INFO [main] Driver:101 - Select classes as 'AC 2 tier 2A' from dropdown
+2022-08-17 16:28:03,997  INFO [main] Driver:109 - Click 'Train with available berth' checkbox
+2022-08-17 16:28:04,158  INFO [main] Driver:118 - Click Search button
+2022-08-17 16:28:04,990  INFO [main] Driver:52 - Click on 'Sort by duration' button
+2022-08-17 16:28:05,043  INFO [main] Driver:60 - Click on 'Departure Late First' and printing all the list of Trains
+2022-08-17 16:28:05,062  INFO [main] Driver:60 - Click on 'Departure Late First' and printing all the list of Trains
+2022-08-17 16:28:05,085  INFO [main] Driver:60 - Click on 'Departure Late First' and printing all the list of Trains
+2022-08-17 16:28:05,107  INFO [main] Driver:60 - Click on 'Departure Late First' and printing all the list of Trains
+2022-08-17 16:28:05,135  INFO [main] Driver:60 - Click on 'Departure Late First' and printing all the list of Trains
+2022-08-17 16:28:05,571  INFO [main] Driver:73 - Train details will be printed
+2022-08-17 16:28:05,645  INFO [main] Driver:79 - Select the 4th Train in the list
+2022-08-17 16:28:05,761  INFO [main] Driver:85 - Click on Book button
+2022-08-17 16:28:05,818  INFO [main] Driver:92 - Train price will be printed
+2022-08-17 16:28:05,990  INFO [main] Driver:101 - Click on 'I agree' button
+2022-08-17 16:28:06,511  INFO [main] Driver:104 - Click on 'Yes button' button
+2022-08-17 16:28:12,259  INFO [main] Driver:43 - Enter UserName
+2022-08-17 16:28:12,427  INFO [main] Driver:51 - Enter Password
+2022-08-17 16:28:19,546  INFO [main] Driver:59 - Click on Sign-in button
+2022-08-17 16:28:23,615  INFO [main] Driver:73 - Invalid message should be displayed
+2022-08-17 16:28:27,971  INFO [main] Driver:110 - Browser Closed

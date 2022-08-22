@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="8" total="11" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-16T17:52:46 IST" name="suite1" finished-at="2022-08-16T17:53:15 IST" duration-ms="29485">
+    <groups>
+    </groups>
+    <test started-at="2022-08-16T17:52:46 IST" name="test1" finished-at="2022-08-16T17:53:15 IST" duration-ms="29485">
+      <class name="testScenarios.IrctcHomePageTestt">
+        <test-method is-config="true" signature="setExtent()[pri:0, instance:testScenarios.IrctcHomePageTestt@17fc391b]" started-at="2022-08-16T17:52:46 IST" name="setExtent" finished-at="2022-08-16T17:52:46 IST" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testScenarios.IrctcHomePageTestt@17fc391b]" started-at="2022-08-16T17:52:46 IST" name="setUp" finished-at="2022-08-16T17:52:52 IST" duration-ms="6318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="homePageOperation()[pri:0, instance:testScenarios.IrctcHomePageTestt@17fc391b]" started-at="2022-08-16T17:52:52 IST" name="homePageOperation" finished-at="2022-08-16T17:52:55 IST" duration-ms="3024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageOperation -->
+        <test-method is-config="true" signature="ListenerTest(org.testng.ITestResult)[pri:0, instance:testScenarios.IrctcHomePageTestt@17fc391b]" started-at="2022-08-16T17:52:55 IST" name="ListenerTest" finished-at="2022-08-16T17:52:55 IST" duration-ms="14" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=homePageOperation status=SUCCESS method=IrctcHomePageTestt.homePageOperation()[pri:0, instance:testScenarios.IrctcHomePageTestt@17fc391b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ListenerTest -->
+        <test-method is-config="true" signature="TeardownTest()[pri:0, instance:testScenarios.IrctcHomePageTestt@17fc391b]" started-at="2022-08-16T17:53:15 IST" name="TeardownTest" finished-at="2022-08-16T17:53:15 IST" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TeardownTest -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:testScenarios.IrctcHomePageTestt@17fc391b]" started-at="2022-08-16T17:53:15 IST" name="endReport" finished-at="2022-08-16T17:53:15 IST" duration-ms="299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- testScenarios.IrctcHomePageTestt -->
+      <class name="testScenarios.IrctcLoginPageTest">
+        <test-method signature="loginPageOperation()[pri:0, instance:testScenarios.IrctcLoginPageTest@514646ef]" started-at="2022-08-16T17:52:57 IST" name="loginPageOperation" finished-at="2022-08-16T17:53:14 IST" duration-ms="17456" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError
+at org.junit.Assert.fail(Assert.java:87)
+at org.junit.Assert.assertTrue(Assert.java:42)
+at org.junit.Assert.assertTrue(Assert.java:53)
+at PageObject.IrctcLoginPage.invalidLogin(IrctcLoginPage.java:66)
+at testScenarios.IrctcLoginPageTest.loginPageOperation(IrctcLoginPageTest.java:25)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageOperation -->
+        <test-method is-config="true" signature="ListenerTest(org.testng.ITestResult)[pri:0, instance:testScenarios.IrctcLoginPageTest@514646ef]" started-at="2022-08-16T17:53:14 IST" name="ListenerTest" finished-at="2022-08-16T17:53:15 IST" duration-ms="378" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginPageOperation status=FAILURE method=IrctcLoginPageTest.loginPageOperation()[pri:0, instance:testScenarios.IrctcLoginPageTest@514646ef] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ListenerTest -->
+      </class> <!-- testScenarios.IrctcLoginPageTest -->
+      <class name="testScenarios.IrctcBookPageTest">
+        <test-method signature="bookPageOperation()[pri:0, instance:testScenarios.IrctcBookPageTest@73eb439a]" started-at="2022-08-16T17:52:55 IST" name="bookPageOperation" finished-at="2022-08-16T17:52:57 IST" duration-ms="1615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookPageOperation -->
+        <test-method is-config="true" signature="ListenerTest(org.testng.ITestResult)[pri:0, instance:testScenarios.IrctcBookPageTest@73eb439a]" started-at="2022-08-16T17:52:57 IST" name="ListenerTest" finished-at="2022-08-16T17:52:57 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=bookPageOperation status=SUCCESS method=IrctcBookPageTest.bookPageOperation()[pri:0, instance:testScenarios.IrctcBookPageTest@73eb439a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ListenerTest -->
+      </class> <!-- testScenarios.IrctcBookPageTest -->
+    </test> <!-- test1 -->
+  </suite> <!-- suite1 -->
+</testng-results>
